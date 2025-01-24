@@ -72,6 +72,8 @@ demon
 
 """
 
+Intersection
+
 """
 
           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -94,6 +96,39 @@ demon
 ⣿⣿⣿⣿⣿⣿                         \⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿                           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿/                          ⣿⣿⣿⣿⣿⣿⣿⣿⣿
 
 """
+
+
+||||||||||||||||||||\                                                      /|||||||||||||||||||| 
+|||||||||||||||||||\\\\                                                  ////|||||||||||||||||||
+|||/////////        \||                                                  ||/        \\\\\\\\\|||
+||/////   _____   ___\                                                    /___   _____   \\\\\||
+||||||   / ___   /___/          ______               ______               \___\   ___ \   ||||||
+|/   ||   /_(_) |/(_)        .-` !  ; '-,         ,-' ;  ! `-.             (_)\| (_)_\   ||   \|
+ | |  |          \  |       / .  :  !  : \       / :  !  :  . \            |  /          |  | | 
+ |                \ /       |  ;  :__   ; _|    |_ ;   __:  ;  |           \ /                | 
+ \__|   /      /___\        |  !  .)(:  . |(    )| .  :)(.  !  |            /___\      \   |__/ 
+   |   /|\________\         |  _  (##)    "|    |"    (##)  _  |             /________/|\   |   
+   |    |\________|         ) (_)  '`;  :  |    |  :  ;`'  (_) (             |________/|    |   
+   |    |      ||           |     .  :  :  |    |  :  :  .     |               ||      |    |   
+   |    |  ____||___        |  ;  ;  ,  ! _(    )_ !  ,  ;  ;  |            ___||____  |    |   
+   |    | /   __    \       |  :  :  .  . ||    || .  .  :  :  |           /    __   \ |    |   
+   |    \/___/__\    \      |  .  :  |  . "|    |" .  |  :  .  |          /    /__\___\/    |   
+   |   \________/\___/      |___.----;_2-tm|    |mt-2_;----.___|          \___/\________/   |
+   |            |                                                              |            | 
+
+"""
+
+
+"At the end of the tunnel you encounter two duboius looking dwarf twins, they seem to be guarding two doors.
+"One of these doors leads to ceratin death" one of them says, "Behind the other lies what you are seeking",
+Due to their dubious looks, it appears obvious to you that one of them always lies while the other can only tell the truth"
+With this knowledge you decide to question the twins to find out which door is correct."
+
+
+
+  
+
+
 
 
 
