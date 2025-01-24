@@ -1,9 +1,13 @@
 import os
+import warnings
+
+# Filter all warnings
+warnings.filterwarnings("ignore")
 
 state = "start"
 has_axe = False
 
-start = """ 
+start = """
 Welcome to our Great-Share-holder-value-verification-application, to avoid excessive load on our application you must prove that you're human by accepting our terms and solving a chapta.
 
 
@@ -74,7 +78,7 @@ Please complete this short captcha before continuing.
 (1) Start Captcha.
 """
 
-woods = """
+woods = """\x1b[32m
   |     |
   \     \    v .   ._, |_  .,                                           &&& &&  & &&           /     /
   \    \           `-._\/  .  \ /    |/_           _-_                && &\/&\|& ()|/ @, &&    |     |
@@ -88,7 +92,7 @@ woods = """
        \    |               |   =|                 // \\                     |||         /   /
        \    \               |    |      _.-.__..------------------._         |||        /   |
        --------------------/ ,  . \--------._                          , -=-~  .-^- _------::--._
-
+\x1b[0m
 You are on a path in a dark forest, there are two paths in front of you.
 What will you do?
 
@@ -133,7 +137,7 @@ What will you do?
 (2) Turn back.
 """
 
-demon = """
+demon = """\x1b[31m
     ,-----.
    ( <> <> )
     )_ W _(
@@ -154,7 +158,7 @@ demon = """
    |  | |  |    
    |__| |__|    
    \__/ \__/    
-
+\x1b[0m
 As you approach the tower, a hulking demon emerges from the shadows, its glowing eyes fixed on you. 
 The way forward is blocked.
 
@@ -164,7 +168,7 @@ What will you do?
 (2) Attempt to sneak past the demon.
 """
 
-demon = """
+demon = """\x1b[31m
     ,-----.
    ( <> <> )
     )_ W _(
@@ -185,7 +189,7 @@ demon = """
    |  | |  |    
    |__| |__|    
    \__/ \__/    
-
+\x1b[0m
 As you approach the tower, a hulking demon emerges from the shadows, its glowing eyes fixed on you. 
 The way forward is blocked.
 
@@ -226,7 +230,7 @@ injured1 = """
                     []______|_! !
                     []________|_!
   __________________[]__________|____________________
-
+\x1b[0m
 You stumble through the iron door of the tower, slamming it shut behind you. 
 Blood trickles from deep wounds, and your vision blurs. 
 The demon's furious roars echo outside, but it doesn't pursue. You barely escaped with your life.
@@ -265,7 +269,7 @@ sneaked = """
                     []______|_! !
                     []________|_!
   __________________[]__________|____________________
-
+\x1b[0m
 Heart pounding, you slip into the tower unnoticed.
 The iron door creaks softly as it closes, sealing you inside.
 Shadows stretch across the stone walls, and the air is damp and cold.
@@ -444,7 +448,7 @@ It's blade glowing with ancient power, ready to reveal secrets long buried.
 (1) Take the axe.
 """
 
-dragon = """
+dragon = """\x1b[32m
                               ___, ____--'
                          _,-.'_,-'      (
                       ,-' _.-''....____(
@@ -461,7 +465,7 @@ dragon = """
            / /          ,-=='-`=-'  / /
      ,-=='-`=-.               ,-=='-`=-.
    *******************************************
-
+\x1b[0m
 You approach a dragon, its massive form looming before you. 
 Its eyes glow with a fiery intensity, and the ground trembles with each breath it takes. 
 
@@ -606,6 +610,7 @@ Here is a voucher for isEven-AI: KI893AB69KORV12
 
 while True:
     os.system("cls")
+    print("\x1b[0m", end="")
     if state == "start":
         print(start)
         inp = input("Enter action: ")
