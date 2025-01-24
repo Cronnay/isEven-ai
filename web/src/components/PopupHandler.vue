@@ -18,7 +18,7 @@
         windowWidth = window.innerWidth;
         windowHeight = window.innerHeight;
 
-        for (let i = 0; i < 20; i++) { 
+        for (let i = 0; i < maxPopups; i++) { 
             setTimeout(() => {
                 addPopup();
             }, Math.random() * maxTime);
