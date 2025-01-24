@@ -9,15 +9,16 @@ const submitted = ref(false)
 
 const cardText = ref("");
 
+const emit = defineEmits(['done'])
 
 function voucherCheck() {
-  if (textInput.value == "abba") {
+  if (textInput.value == "KI893AB69KORV12") {
     correctInput.value = true
+    emit("done")
   } else {
     correctInput.value = false
   }
   submitted.value = true
-
 }
 
 </script>
@@ -43,8 +44,5 @@ function voucherCheck() {
       </div>
 
     </form>
-  </div>
-  <div v-if="correctInput" class="flex align-center justify-center">
-    <h1 class="text-3xl">Download our desktop application</h1>
   </div>
 </template>
