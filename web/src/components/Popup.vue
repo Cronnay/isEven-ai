@@ -2,14 +2,14 @@
     <div class="popup-container" :style="positionStyle">
         <div class="popup-header">
             <p>{{ props.title }}</p>
-            <button :onclick="props.onExit">X</button>
+            <button :onclick="closePopup">X</button>
         </div>
         <div class="popup-content">
             <img v-if="props.imageUrl.length > 0" :src="props.imageUrl" alt="">
             <p>{{ props.message }}</p>
         </div>
         <div class="popup-buttons">
-            <button>OK</button>
+            <button :onclick="closePopup">OK</button>
         </div>
     </div>
 </template>
@@ -60,10 +60,11 @@
         };
     });
 
-    defineEmits(['close-popup']); // close-popup should parse the id to the parent!
+    const emits = defineEmits(['close-popup']); // close-popup should parse the id to the parent!
 
     const closePopup = () => {
-
+        emits("close-popup", props.id);
+        props.onExit();
     };
 </script>
 
@@ -93,7 +94,9 @@
         top: 150px;
         left: 150px;
         min-width: 300px;
+        max-width: 400px;
         min-height: 150px;
+        max-height: 600px;
         background-color: var(--popup-primary-color);
         border: 2px solid var(--popup-primary-hover-color);
 
