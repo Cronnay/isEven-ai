@@ -577,7 +577,7 @@ left_twin = """
    |   \________/\___/  
    |            |        
 
-Here is a voucher for isEven-AI: AV67FDAO931JDE
+Here is a voucher for Great-ShareHolder-Value-AI: AV67FDAO931JDE
 
 (1) Continue.
 """
@@ -601,7 +601,7 @@ right_twin = """
        \___/\________/   |
             |            |   
 
-Here is a voucher for isEven-AI: KI893AB69KORV12
+Here is a voucher for Great-ShareHolder-Value-AI: KI893AB69KORV12
 
 (1) Continue.
 """
