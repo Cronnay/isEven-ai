@@ -4,7 +4,7 @@ import Login from './components/Login.vue'
 </script>
 
 <template>
-  <div class="w-screen h-screen bg-black">
+  <div class="w-screen h-screen bg-white">
     <Login />
     <HelloWorld msg="Vite + Vue" />
   </div>
