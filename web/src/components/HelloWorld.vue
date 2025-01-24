@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 
-defineProps<{ msg: string }>()
+  import PopupHandler from './PopupHandler.vue';
 
-const count = ref(0)
+  defineProps<{ msg: string }>()
+
 </script>
 
 <template>
-  <h1 class="text-lg font-bold underline">{{ msg }}</h1>
+  <h1 class="text-lg font-bold underline text-white">{{ msg }}</h1>
+  <PopupHandler></PopupHandler>
 </template>
 
 <style scoped></style>
