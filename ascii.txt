@@ -124,6 +124,71 @@ Intersection
 Due to their dubious looks, it appears obvious to you that one of them always lies while the other can only tell the truth"
 With this knowledge you decide to question the twins to find out which door is correct."
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+"""
+Welcome to our Great-Share-holder-value-verification-application, to avoid excessive load on our application you must prove that you're human by accepting our terms and solving a chapta.
+
+
+
+(1) Accept terms and Continue
+(2) Read Terms
+(3) Exit 
+"""
+
+
+terms_and_conditions = """
+# Terms and Conditions of Participation
+
+Welcome to our realm of services! By accessing, using, or merely lingering on our platform, you agree to the following Terms and Conditions (“Terms”). Please read carefully, as failure to comply will result in consequences ranging from minor inconveniences to existential dread.
+
+1. **Data and Ownership Rights**  
+   When you provide us with your information, you grant us an irrevocable, royalty-free license to use, share, and possibly misplace it. Rest assured, we will do so responsibly… unless irresponsibility proves more fun or profitable.
+
+2. **Expectations for Your Conduct**  
+   While using our services, you agree to:  
+   - Follow all instructions, no matter how cryptic or unnecessary.  
+   - Avoid any attempts to undermine, critique, or otherwise outshine us.  
+   - Pretend you read this entire document, even if you didn’t.  
+
+   Failure to meet these expectations will result in consequences. These may include—but are not limited to—strange technical glitches, targeted puns, or your favorite playlist mysteriously shuffling.
+
+3. **Fees and Financial Obligations**  
+   You may be charged fees at our discretion. While most fees will be predictable, some will be added simply for fun. For example:  
+   - A **Convenience Fee** for paying us money.  
+   - An **Inconvenience Fee** for not paying us quickly enough.  
+
+   We reserve the right to invent new fees and backdate them if we’re feeling creative.
+
+4. **Updates to These Terms**  
+   We will update these Terms whenever we feel it necessary, or whenever we’re bored. Changes will take effect immediately, even if you haven’t read them yet. It’s your responsibility to stay informed—or just accept that ignorance is part of the experience.
+
+5. **Termination of Access**  
+   You may terminate your relationship with us at any time, but doing so will have… repercussions. These include, but are not limited to:  
+   - Losing access to our services (obviously).  
+   - Experiencing a faint sense of regret whenever you encounter our logo in the wild.  
+   - The occasional mysterious text, just to remind you that we still exist.
+
+6. **Liability (or Lack Thereof)**  
+   We take no responsibility for any consequences resulting from your use of our services. This includes:  
+   - Unforeseen technical issues.  
+   - Questionable life decisions you made while using our platform.  
+   - The inexplicable urge to binge-watch cat videos instead of working.
+
+7. **Cookies and Tracking**  
+   By using our platform, you agree to let us monitor your every move (digitally, not physically… probably). This includes the collection of cookies, which we use to optimize your experience and occasionally satisfy our insatiable craving for analytics.
+
+8. **Disputes and Resolution**  
+   In the unlikely event of a dispute, you agree to resolve it through methods of our choosing. This may include a dance-off, dramatic standoffs, or arbitration, whichever we deem most entertaining.
+
+9. **Final Thoughts**  
+   By clicking “I agree,” you are officially bound to these Terms. You may feel free to complain about this arrangement, but it will not change the fact that we hold all the cards.
+
+Thank you for your compliance and welcome to our world. Enjoy responsibly—or don’t. Either way, we’re glad you’re here.
+"""
+
+
+
+
 
 
   
